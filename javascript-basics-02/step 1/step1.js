@@ -1,5 +1,4 @@
-document.querySelector("img");
-function bigImg(x) {
-    x.style.height = "64px";
-    x.style.width = "64px";
-  }
+function select(){
+document.querySelector("body > img").style.border = "10px solid pink";
+
+}
