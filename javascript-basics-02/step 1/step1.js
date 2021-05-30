@@ -1,6 +1,7 @@
 
-function select(){
-document.querySelector("body > img").style.border = "10px solid pink";
 
-}
-
+let c = document.querySelector("#image1")
+c.addEventListener("mouseover", function() {
+    document.querySelector("#image1").src = "images/image1_2.jpg";
+  
+});
